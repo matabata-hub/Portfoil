@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -moz-radial-gradient(black);
+    min-height: auto;
+    overflow-x: hidden;
+    
+}
+
+.header{
+    position: fixed;
+    top:  25px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0px 25px;
+  
+}
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    background: tomato(255,255,255,0.15);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-radius: 50px;
+    border: 1px solid rgba(red, green, blue, alpha);
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.3);
+}
